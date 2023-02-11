@@ -1,0 +1,415 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.container1 {
+    /* padding-left: 141px ; */
+}
+
+html{
+    background-color: #171717;
+    color: #fafaf9;
+    font-family: 'Inter', sans-serif;
+}
+/* NAV */
+
+
+.header__block__title{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-left: 10px;
+}
+    
+.nav__list__item{
+    list-style-type: none;
+    font-size: 12px;
+    padding: 0 5px 0 5px;
+        
+}
+    
+    .nav__list{
+        display: flex;
+        justify-content: end;
+        
+    }
+    
+    .nav__list__link{
+        color: white;
+        text-decoration: none;
+    }
+    /* main */
+    .promo{
+        width: 1255px;
+        height: 741px;
+    }
+
+    .promo__title{
+        font-size: 162px;
+    }
+
+    .promo__img{
+        position: absolute;
+        width: 340px;
+        top: 57px;
+        left: 700px;
+    }
+
+    /* .promo__img3{
+        position: relative;
+        bottom: 1040px;
+        left: 200px;
+    }
+
+    .promo__img1{
+        position: relative;
+        bottom: 680px;
+        left: 200px;
+    }
+
+    .promo__img2{
+        position: relative;
+        top: 57px;
+        left: 450px;
+    } */
+    .promo__text{
+       padding-bottom:  ;
+    }
+
+    .promo__btn{    
+        background-color: #e6533c;
+        width: 200px;
+        height: 70px;
+        border-radius: 10px;
+        color: white;
+        
+    }
+    
+    .promo__logos{
+        margin-left: 141px;
+        position: relative;
+
+    }
+    
+    .promo__logos__items{
+        width: 600px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .promo__logos__title {
+        padding-bottom: 30px;
+        padding-top: 100px;
+        color: rgba(239, 237, 232, 0.65);
+    }
+/* programs */
+ 
+.programs__title{
+    margin-top: 199px;
+    font-size: 30px;
+}
+
+.programs__title__text{
+    font-size: 16px;
+    color: #d9d9d9;
+    padding-top: 10px;
+}
+
+.programs__flex{
+display: flex;
+justify-content: space-around;
+padding-top: 20px;
+}
+
+.programs__block{
+width: 270px;
+height: 170px;
+background-color: #323443;
+border-radius: 10px;
+}
+
+.programs__block__title{
+    padding-left: 58px;
+    font-size: 16px;
+    padding-top: 30px;
+}
+
+.programs__block__text{
+    font-size: 14px;
+    padding-left: 59px;
+    color: rgba(239, 237, 232, 0.65)
+}
+
+/*NAV*/
+
+
+.header__block__title{
+display: flex;
+justify-content: space-between;
+}
+
+.header__block__logo{
+
+}
+
+
+.header__block__title{
+display: flex;
+justify-content: space-between;
+align-items: center;
+line-height: 19px;
+font-weight: bold;
+}
+
+.nav__list{
+display: flex;
+justify-content: space-between;
+list-style-type: none;
+}
+.nav__list__item{
+padding-left: 20px;
+font-size: 12px;
+}
+.nav__list__link{
+    text-transform: uppercase;
+    color: #FAFAF9;
+
+}
+
+/* PROMO*/
+
+.promo__title{
+    font-size: 162px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+}
+
+.promo__img
+
+.promo__text{
+    padding-top: 45px;
+}
+
+.promo__block1 {
+    background-color: #EF8964;
+    width: 180px;
+    height: 110px;
+    border-radius: 15px;
+    position: absolute;
+    left: 940px;
+    top: 20px;
+}
+
+.promo__block1-img {
+    border-radius: 100px;
+    background-color: #EFA082;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 20px;
+    top: 16px;
+}
+.promo__block1-sub-img {
+    position: absolute;
+    left: 4px;
+    top: 5px;
+}
+
+.promo_mini_block__text {
+    font-size: 48px;
+    position: absolute;
+    
+    left: 17px;
+}
+
+.promo-span {
+    font-size: 20px;
+    color: #e7c594;
+}
+
+
+.promo__block2 {
+    width: 206px ;
+    height: 96px ;
+    display: flex;
+    justify-content: space-around;
+    background-color: #303030 ;
+    border-radius: 15px;
+    position: absolute;
+    left: 550px;
+    bottom: 140px;
+}
+
+.promo__block2-img {
+    position: absolute;
+    top: 28px;
+    left: 30px;
+}
+
+.promo__block2-text {
+    font-size: 27px;
+    position: absolute;
+    right: 50px;
+    bottom: 20px;
+}
+
+.promo__block2-sub-text {
+    color: #9b9b9b;
+    position: absolute;
+    top: 38px;
+    left: 94px;
+}
+
+
+.promo__block3 {
+    width: 193px;
+    height: 98px;
+    background-color: #7A29DC;
+    border-radius: 15px;
+    position: absolute;
+    left: 980px;
+    bottom: 100px;
+}
+
+.promo__block3-text {
+    font-size: 40px;
+    position: absolute;
+    left: 30px;
+    bottom: 1px;
+    
+}
+
+.promo__block3-text-sub {
+    color: #9b9b9b ;
+    position: absolute;
+    left: 30px;
+    top: 40px;
+}
+/* BLOG */
+
+
+.blog__item1 {
+ display: flex;
+ justify-content: space-around;
+ padding-top: 100px;
+}
+
+.blog__img1 {
+
+}
+
+.blog__img2 {
+  width: 560px;
+  height: 510px;
+}
+
+.blog__item__title {
+    color: #FAFAF9;
+    font-size: 45px;
+}
+
+.blog__item__text {
+    font-size: 16px;
+    color: rgba(239, 237, 232, 0.65);
+}
+
+.blog__flex-text{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.strilka {
+    width: 20px;
+}
+
+/* MEMBERSHIP */
+
+.membership {
+    width: 1155px;
+    height: 787px;
+    margin-left: 80px;
+    margin-top: 150px;
+}
+
+
+
+.membership__title {
+    font-size: 60px ;
+}
+
+.membership__block1{
+    width: 538px;
+    height: 540px;
+    background-color: #232532;
+}
+
+.membership__block2 {
+    width: 538px;
+    height: 540px;
+    background-color: #323443;
+}
+
+.membership__block__title {
+    font-size: 40px;
+    text-align: center;
+}
+
+.membership__block__title2 {
+
+}
+
+.membership__block__text {
+    padding-left: 55px;
+    color: #adadad;
+}
+
+.membership__block__text2 {
+
+}
+
+.membership__block-flex {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.stolbtsi {
+    margin-left: 50px;
+}
+
+.membership__seemore {
+    padding-left: 50px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: start;
+}
+
+.stolbtsi {
+    color: #afafaf;
+}
+
+.membership__btn {
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color: blue;
+    border: 0px;
+    color: white;
+    width: 122px;
+    height: 22px;
+    border-radius: 10px;
+
+}
+
+.membership__strilka {
+
+}
+
+.end__btn {
+    
+}
