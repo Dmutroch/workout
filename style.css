@@ -95,6 +95,7 @@ html{
     
     .promo__logos__items{
         width: 600px;
+        padding-left: 100px;
         display: flex;
         justify-content: space-between;
     }
@@ -102,8 +103,10 @@ html{
     .promo__logos__title {
         padding-bottom: 30px;
         padding-top: 100px;
+        padding-left: 100px;
         color: rgba(239, 237, 232, 0.65);
     }
+
 /* programs */
  
 .programs__title{
@@ -409,5 +412,13 @@ font-size: 12px;
 }
 
 .end__btn {
-    
+    width: 100px ;
+    height: 30px ;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.btn__end__flex {
+    display: flex;
+    justify-content: end;
 }
