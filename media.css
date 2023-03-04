@@ -615,6 +615,9 @@
     .container{
         max-width: 360px;
     }
+    .nav{
+        display: none;
+    }
 
     .nav__list__item{
         list-style-type: none;
