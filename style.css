@@ -6,9 +6,6 @@
     max-width: 1440px;
     margin: 0 auto;
 }
-.container1 {
-    /* padding-left: 141px ; */
-}
 
 html{
     background-color: #171717;
@@ -95,6 +92,7 @@ html{
     
     .promo__logos__items{
         width: 600px;
+        padding-left: 100px;
         display: flex;
         justify-content: space-between;
     }
@@ -102,8 +100,10 @@ html{
     .promo__logos__title {
         padding-bottom: 30px;
         padding-top: 100px;
+        padding-left: 100px;
         color: rgba(239, 237, 232, 0.65);
     }
+
 /* programs */
  
 .programs__title{
@@ -148,10 +148,6 @@ border-radius: 10px;
 .header__block__title{
 display: flex;
 justify-content: space-between;
-}
-
-.header__block__logo{
-
 }
 
 
@@ -297,9 +293,6 @@ font-size: 12px;
  padding-top: 100px;
 }
 
-.blog__img1 {
-
-}
 
 .blog__img2 {
   width: 560px;
@@ -358,18 +351,11 @@ font-size: 12px;
     text-align: center;
 }
 
-.membership__block__title2 {
-
-}
-
 .membership__block__text {
     padding-left: 55px;
     color: #adadad;
 }
 
-.membership__block__text2 {
-
-}
 
 .membership__block-flex {
     display: flex;
@@ -404,10 +390,14 @@ font-size: 12px;
 
 }
 
-.membership__strilka {
-
+.end__btn {
+    width: 100px ;
+    height: 30px ;
+    border-radius: 15px;
+    margin-bottom: 50px;
 }
 
-.end__btn {
-    
+.btn__end__flex {
+    display: flex;
+    justify-content: end;
 }
