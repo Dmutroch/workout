@@ -554,21 +554,21 @@
 
     .membership__block1{
         width: 438px;
-        height: 440px;
+        height: 460px;
         background-color: #232532;
         margin: auto;
     }
 
     .membership__block2 {
         width: 438px;
-        height: 440px;
+        height: 460px;
         background-color: #323443;
         margin: auto;
     }
 
     .membership__block-flex {
         display: block;
-        padding-top: 30px;
+        padding-top: 0px;
     }
 
     .stolbtsi {
@@ -585,7 +585,7 @@
     .membership__block__title {
         font-size: 35px;
         text-align: center;
-        padding-top: 0px;
+        padding-top: 20px;
     }
     
 
@@ -889,7 +889,7 @@
 
     .membership__block-flex {
         display: block;
-        padding-top: 30px;
+        padding-top: 10px;
     }
 
     .stolbtsi {
@@ -906,7 +906,7 @@
     .membership__block__title {
         font-size: 25px;
         text-align: center;
-        padding-top: 0px;
+        padding-top:20px;
     }
 
     .promo__logos__item {
