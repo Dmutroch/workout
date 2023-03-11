@@ -29,7 +29,7 @@ html{
         
 }
     
-    nav__list{
+    .nav__list{
         display: flex;
         justify-content: end;
         
@@ -317,6 +317,7 @@ html{
 
 .strilka {
     width: 20px;
+    margin-left: 5px ;
 }
 .strilka__block {
     display: flex;
@@ -395,15 +396,6 @@ html{
 
 }
 
-.end__btn {
-    width: 100px ;
-    height: 30px ;
-    border-radius: 15px;
-    margin-bottom: 50px;
-    list-style-type: none;
-    
-}
-
 .btn__end__flex {
     display: flex;
     justify-content: end;
@@ -412,6 +404,8 @@ html{
 .end__btn {
     text-decoration: none;
     color: #171717;
+    
+    
 }
 
 .member__strilka {
@@ -419,4 +413,14 @@ html{
     height: 20px;
     margin-top: 18px;
     margin-left:5px;
+}
+
+.strilka2 {
+    width: 20px ;
+    height: 15px ;
+    margin-top: 5px;
+}
+
+.strilka__text {
+    text-decoration: none;
 }
