@@ -318,6 +318,11 @@ font-size: 12px;
 .strilka {
     width: 20px;
 }
+.strilka__block {
+    display: flex;
+    justify-content: center;
+    
+}
 
 /* MEMBERSHIP */
 

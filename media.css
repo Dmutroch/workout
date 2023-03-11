@@ -406,6 +406,18 @@
         font-size: 13px;
     }
 
+    .btn__end__flex {
+        position: relative;
+        width: 100px;
+        height: 20px;
+        top: 370px;
+        left: 400px;
+    }
+    .end__btn {
+        position: absolute;
+        bottom: 0px;
+    }
+
 
 
     .promo__block1 {
@@ -634,33 +646,35 @@
 
 
     .programs__title{
-        margin-top: 100px;
+        margin-top: 50px;
         font-size: 17px;
     }
     .programs__title__text{
         font-size: 10px;
         color: #d9d9d9;
-        padding-top: 15px;
+        padding-top: 5px;
     }
     .programs__block{
-        margin-top: 30px    ;
-        width: 130px;
+        margin-top: 3   0px    ;
+        width: 330px;
         height: 130px;
         border-radius: 10px;
+        margin-left: 10px;
     }
     .programs__block__title{
-        align-items: center;
-        padding-left: 15px;
-        font-size: 12px;
+        text-align: center;
+        padding-left: 16px;
+        font-size: 15px;
         padding-top: 10px;
     }
     .programs__block__text{
-        font-size: 12px;
+        font-size: 14px;
         padding-left: 15px;
+        text-align: center;
     }
     .programs__flex{
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
     }
 
     
@@ -798,28 +812,34 @@
 
 
     .blog__item1 {
-        display: block;
-        justify-content: space-around;
+        display: flex;
+        flex-direction: column;
         padding-top: 0px;
     }
+
     .blog__img1 {
         margin-top: 25px  ;
         margin-left: 0px;
         width:  280px   ;
         height: 280px   ;
+        margin-left: 30px;
         
     }
     .blog__img2 {
         margin-right: 30px;
-        margin-top: 90px;
+        margin-top: 20px;
         width: 280px;
         height: 280px;
+        order: 2;
+        margin-left: 40px;
     }
     .blog__item__title {
         color: #FAFAF9;
         font-size: 17px;
+        text-align: center;
     }
     .blog__item__text {
+        
         font-size: 8px;
         color: rgba(239, 237, 232, 0.65);
     }
@@ -827,11 +847,12 @@
         display: flex;
         flex-direction: column;
         padding-top: 50px;
+        align-items: center;
     }
     
 
     .membership {
-        width: 360px;
+        width: 359px;
         height: 787px;
         margin-left: 1px;
         margin-top: 150px;
@@ -885,6 +906,18 @@
         padding-left: 0px;
         display: flex;
         justify-content: space-between;
+    }
+
+    .btn__end__flex {
+        position: relative;
+        width: 100px;
+        height: 20px;
+        top: 250px;
+        left: 245px;
+    }
+    .end__btn {
+        position: absolute;
+        bottom: 0px;
     }
 
 
